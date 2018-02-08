@@ -1,0 +1,160 @@
+\documentclass[a4paper]{article}
+\usepackage[margin=1in]{geometry}
+    \usepackage{amsmath}
+    \usepackage{hyperref}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+    % END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+
+\vspace*{-40pt}
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Andrew Dudley}}\\
+    2027 E. University Drive, Unit 131, Tempe, AZ, 85281\\
+    Andrew.Dudley@asu.edu $\cdot$ (623) 910-0586\\
+
+\end{center}
+
+\vspace*{1mm}
+
+%==== Education ====%
+\header{Education}
+
+\vspace{2mm}
+\textbf{Arizona State University (Ira A. Fulton School of Engineering)}\hfill Tempe, AZ\\
+    %\-\hspace{.7cm} \textbf{Master of Science in Computer Science}\hfill \textit{Expected May 2019} \\
+    %\-\hspace{.7cm} \textbf{Bachelor of Science in Computer Science}\hfill Jan 2014 - May 2017\\
+    %\-\hspace{.7cm} \textit{Summa Cum Laude} Cumulative GPA: 4.0/4.0
+    \begin{itemize}
+        \item Master of Science in Computer Science\hfill \textit{Expected May 2019} \\
+            Cumulative GPA: 4.0/4.0
+        \item Bachelor of Science in Computer Science\hfill Jan 2014 - May 2017\\
+            \textit{Summa Cum Laude}, Cumulative GPA: 4.0/4.0
+    \end{itemize}
+
+%==== Experience ====%
+\header{Experience}
+\vspace{1mm}
+
+\textbf{Yochan Artificial Intelligence Research Laboratory} \hfill Arizona State University\\
+\textit{Research Assistantship - Supervised by  Dr. Subbarao Kambhampati} \hfill \\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Researching Vehicle-to-Vehicle (V2V) planning and communications for augmenting reality enabled smart HUDs to increase situational awareness of drivers
+    \item Designed interface to collect human feedback on robot task plans using a simulated environment.
+\end{itemize}
+\textbf{Teaching Assistant} \hfill \\
+\vspace{1mm}
+\hspace{.5cm}$\bullet$ Artificial Intelligence \-  $\bullet$ Theoretical Computer Science \-$\bullet$ Principles of Programming Languages\\
+\vspace{3mm}
+\textbf{Data Mining and Machine Learning Laboratory} \hfill \\
+\textit{Undergraduate Research Aide} \hfill Aug 2016 | Dec 2016\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Developed a distributed web scraping tool to mine data from Twitter hyperlinks (Python).
+\end{itemize}
+
+\textbf{Allstate} \hfill Chicago, IL\\
+\textit{Application Developer Intern} \hfill May 2016 | Aug 2016\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Implemented natural language processing pipeline for chat bot, which included word sense disambiguation and concept mapping.
+	\item Analyzed modern natural language processing solutions (SyntaxNet, NLTK, SpaCy).
+\end{itemize}
+
+\textbf{Rockwell Automation} \hfill Phoenix, AZ\\
+\textit{Information Developer} \hfill Jan 2012 | Jul 2013\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Developed software solution to publish help documentation into a modern help viewer format.
+	\item Created various tools for automating departmental and localization processes.
+	\item Implemented feature requirements for online help and print deliverables (JavaScript, VBScript).
+\end{itemize}
+
+\header{Projects}
+\textbf{An Investigation of Bounded Misclassification for Operational Security on Deep Neural Networks}
+\begin{itemize}
+    \item Implemented a neural network framework from scratch and trained models using domain-specific distance metrics in attempt to impose bounds on the misclassification rate of adversarial inputs.
+\end{itemize}
+\textbf{EpiFinder Tagging} (Capstone) \\
+\begin{itemize}
+       \item A biomedical text annotation tool that uses conditional random fields for named entity recognition to automatically tag ontological concepts. \textit {(Spring MVC, JavaScript, Java) }\\
+\end{itemize}
+
+\textbf{Allstate Intelligent Virtual Assistant Challenge} \\
+    \textit{Automated chat client developed in Python}
+    \begin{itemize}
+        \item Awarded cash prize and summer internship at Allstate Headquarters in Chicago, IL.
+        \item Chat bot designed to extract data from knowledge base articles and then use that knowledge to automatically assist users with technical issues and account updates.
+        \item Pre-processing, tagging, and other NLP features implemented with Natural Language Toolkit.
+        \end{itemize}
+\vspace*{2mm}
+
+\header{Skills}
+\begin{tabular}{ l l }
+	Programming: & Python, C, C++, C\#, Java                                                                      \\
+	Web:         & Django, Spring MVC, JavaScript                                                                 \\
+    Areas of Interest: & Reinforcement Learning, Deep Learning, Pattern Recognition
+\end{tabular}
+\end{document}
