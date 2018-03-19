@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.29)  19 MAR 2018 15:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.29)  19 MAR 2018 15:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**resume.tex
-(./resume.tex
+**security_resume.tex
+(./security_resume.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -325,8 +325,9 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-) (./resume.aux)
-\openout1 = `resume.aux'.
+)
+(./security_resume.aux)
+\openout1 = `security_resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
@@ -344,8 +345,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 67.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 67.
@@ -398,9 +398,9 @@ LaTeX Info: Redefining \ref on input line 67.
 LaTeX Info: Redefining \pageref on input line 67.
 LaTeX Info: Redefining \nameref on input line 67.
 
-(./resume.out) (./resume.out)
+(./security_resume.out) (./security_resume.out)
 \@outlinefile=\write3
-\openout3 = `resume.out'.
+\openout3 = `security_resume.out'.
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 75.
 
@@ -417,21 +417,21 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
- (./resume.aux)
+ (./security_resume.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
-Package rerunfilecheck Info: File `resume.out' has not changed.
+Package rerunfilecheck Info: File `security_resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
  ) 
 Here is how much of TeX's memory you used:
  6102 strings out of 493029
- 87969 string characters out of 6136234
+ 88086 string characters out of 6136234
  176751 words of memory out of 5000000
  9605 multiletter control sequences out of 15000+600000
  7582 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 31i,10n,43p,315b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,10n,43p,324b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-di
@@ -439,7 +439,7 @@ st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
 frm1000.pfb>
-Output written on resume.pdf (1 page, 87925 bytes).
+Output written on security_resume.pdf (1 page, 87925 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
